@@ -1,0 +1,26 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=72:A9:75:4D:4A:57:AF:FF:0E:96:D0:FC:32:31:59:6C:65:AD:4B:03%3Borg.bluehack.atspotproto
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    72:A9:75:4D:4A:57:AF:FF:0E:96:D0:FC:32:31:59:6C:65:AD:4B:03
+
+    SHA-1 certificate fingerprint:
+    72:A9:75:4D:4A:57:AF:FF:0E:96:D0:FC:32:31:59:6C:65:AD:4B:03
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyBH8YhWN2r3klAxp8qlInqcMXYZC98SxlM
+    </string>
+</resources>

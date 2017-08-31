@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">AtSpotProto</string>
+    <string name="search_input_hint">검색어를 입력하세요 (강남, #맛집..)</string>
+    <string name="search_button_text">검색</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="inquiry_input_hint">질문을 입력하세요 \n(ex. 강남역 아띠제에 블루베리 치즈케이크 남아 있나요?)</string>
+    <string name="answer_input_hint">답변을 입력하세요</string>
+
+
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            This sample demonstrates the basic use of Camera2 API. Check the source code to see how
+            you can display camera preview and take pictures.
+
+
+        ]]>
+    </string>
+
+</resources>
