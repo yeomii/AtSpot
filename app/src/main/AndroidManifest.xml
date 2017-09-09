@@ -15,6 +15,14 @@
     <uses-permission android:name="android.hardware.camera.autofocus" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+    <permission
+        android:name="com.pkg.map.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"></permission>
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -22,13 +30,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".OldMainActivity" />
         <activity android:name=".NearbyActivity" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -47,7 +49,24 @@
             android:label="@string/title_activity_maps" />
         <activity android:name=".InquiryActivity" />
         <activity android:name=".CameraActivity" />
-        <activity android:name=".AnswerActivity"></activity>
+        <activity android:name=".AnswerActivity" />
+        <activity android:name=".InquiryListActivity" />
+        <activity
+            android:name=".IntroActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".InquiryDetailActivity"></activity>
     </application>
 
 </manifest>

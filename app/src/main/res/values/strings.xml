@@ -1,11 +1,10 @@
 <resources>
-    <string name="app_name">AtSpotProto</string>
+    <string name="app_name">At Spot</string>
     <string name="search_input_hint">검색어를 입력하세요 (강남, #맛집..)</string>
     <string name="search_button_text">검색</string>
     <string name="title_activity_maps">Map</string>
     <string name="inquiry_input_hint">질문을 입력하세요 \n(ex. 강남역 아띠제에 블루베리 치즈케이크 남아 있나요?)</string>
     <string name="answer_input_hint">답변을 입력하세요</string>
-
 
     <string name="request_permission">This sample needs camera permission.</string>
     <string name="camera_error">This device doesn\'t support Camera2 API.</string>
@@ -19,5 +18,13 @@
 
         ]]>
     </string>
+
+    <string name="title_activity_intro">IntroActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="intro_text">AtSpot</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="large_text">내 주변 문의</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

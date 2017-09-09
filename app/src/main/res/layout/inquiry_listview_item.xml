@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:divider="?attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:showDividers="end">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:paddingLeft="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="0.7"
+            android:divider="?android:attr/dividerHorizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/inquiry_list_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_message_shape" />
+
+            <TextView
+                android:id="@+id/inquiry_list_question_textview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:hint="no Question"
+                android:paddingLeft="20dp"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:text="Reward."
+                android:textColor="@color/colorAccent" />
+
+            <TextView
+                android:id="@+id/inquiry_list_reward_textview"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:hint="500" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
